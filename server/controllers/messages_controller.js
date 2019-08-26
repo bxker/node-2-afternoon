@@ -8,7 +8,6 @@ let id = 0;
 const createMessage = (req, res) => {
     //destructuring text to equal req.body
     const {text, time} = req.body;
-
     //pushing the id, text, and time into the messages arr
     messages.push({
         id, 
